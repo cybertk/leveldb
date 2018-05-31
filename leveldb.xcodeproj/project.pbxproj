@@ -92,8 +92,6 @@
 		9216837A1B26691A00561211 /* filter_policy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921683021B26691A00561211 /* filter_policy.cc */; };
 		9216837B1B26691A00561211 /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921683031B26691A00561211 /* hash.cc */; };
 		9216837C1B26691A00561211 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 921683041B26691A00561211 /* hash.h */; };
-		9216837E1B26691A00561211 /* histogram.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921683061B26691A00561211 /* histogram.cc */; };
-		9216837F1B26691A00561211 /* histogram.h in Headers */ = {isa = PBXBuildFile; fileRef = 921683071B26691A00561211 /* histogram.h */; };
 		921683801B26691A00561211 /* logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921683081B26691A00561211 /* logging.cc */; };
 		921683811B26691A00561211 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 921683091B26691A00561211 /* logging.h */; };
 		921683821B26691A00561211 /* mutexlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216830A1B26691A00561211 /* mutexlock.h */; };
@@ -101,8 +99,6 @@
 		921683841B26691A00561211 /* posix_logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216830C1B26691A00561211 /* posix_logger.h */; };
 		921683851B26691A00561211 /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216830D1B26691A00561211 /* random.h */; };
 		921683861B26691A00561211 /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9216830E1B26691A00561211 /* status.cc */; };
-		921683871B26691A00561211 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9216830F1B26691A00561211 /* testharness.cc */; };
-		921683881B26691A00561211 /* testharness.h in Headers */ = {isa = PBXBuildFile; fileRef = 921683101B26691A00561211 /* testharness.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,8 +199,6 @@
 		921683021B26691A00561211 /* filter_policy.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filter_policy.cc; sourceTree = "<group>"; };
 		921683031B26691A00561211 /* hash.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hash.cc; sourceTree = "<group>"; };
 		921683041B26691A00561211 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
-		921683061B26691A00561211 /* histogram.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = histogram.cc; sourceTree = "<group>"; };
-		921683071B26691A00561211 /* histogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = histogram.h; sourceTree = "<group>"; };
 		921683081B26691A00561211 /* logging.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logging.cc; sourceTree = "<group>"; };
 		921683091B26691A00561211 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
 		9216830A1B26691A00561211 /* mutexlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mutexlock.h; sourceTree = "<group>"; };
@@ -212,8 +206,6 @@
 		9216830C1B26691A00561211 /* posix_logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = posix_logger.h; sourceTree = "<group>"; };
 		9216830D1B26691A00561211 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
 		9216830E1B26691A00561211 /* status.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = status.cc; sourceTree = "<group>"; };
-		9216830F1B26691A00561211 /* testharness.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testharness.cc; sourceTree = "<group>"; };
-		921683101B26691A00561211 /* testharness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testharness.h; sourceTree = "<group>"; };
 		9295C9951B2591EA00C388EB /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -299,8 +291,8 @@
 				921682B61B26691A00561211 /* version_edit.h */,
 				921682B81B26691A00561211 /* version_set.cc */,
 				921682B91B26691A00561211 /* version_set.h */,
-				921682BB1B26691A00561211 /* write_batch.cc */,
 				921682BC1B26691A00561211 /* write_batch_internal.h */,
+				921682BB1B26691A00561211 /* write_batch.cc */,
 			);
 			name = db;
 			path = leveldb/src/db;
@@ -371,20 +363,20 @@
 		921682DD1B26691A00561211 /* table */ = {
 			isa = PBXGroup;
 			children = (
-				921682DE1B26691A00561211 /* block.cc */,
-				921682DF1B26691A00561211 /* block.h */,
 				921682E01B26691A00561211 /* block_builder.cc */,
 				921682E11B26691A00561211 /* block_builder.h */,
+				921682DE1B26691A00561211 /* block.cc */,
+				921682DF1B26691A00561211 /* block.h */,
 				921682E21B26691A00561211 /* filter_block.cc */,
 				921682E31B26691A00561211 /* filter_block.h */,
 				921682E51B26691A00561211 /* format.cc */,
 				921682E61B26691A00561211 /* format.h */,
-				921682E71B26691A00561211 /* iterator.cc */,
 				921682E81B26691A00561211 /* iterator_wrapper.h */,
+				921682E71B26691A00561211 /* iterator.cc */,
 				921682E91B26691A00561211 /* merger.cc */,
 				921682EA1B26691A00561211 /* merger.h */,
-				921682EB1B26691A00561211 /* table.cc */,
 				921682EC1B26691A00561211 /* table_builder.cc */,
+				921682EB1B26691A00561211 /* table.cc */,
 				921682EE1B26691A00561211 /* two_level_iterator.cc */,
 				921682EF1B26691A00561211 /* two_level_iterator.h */,
 			);
@@ -404,13 +396,11 @@
 				921682FB1B26691A00561211 /* comparator.cc */,
 				921682FC1B26691A00561211 /* crc32c.cc */,
 				921682FD1B26691A00561211 /* crc32c.h */,
-				921682FF1B26691A00561211 /* env.cc */,
 				921683001B26691A00561211 /* env_posix.cc */,
+				921682FF1B26691A00561211 /* env.cc */,
 				921683021B26691A00561211 /* filter_policy.cc */,
 				921683031B26691A00561211 /* hash.cc */,
 				921683041B26691A00561211 /* hash.h */,
-				921683061B26691A00561211 /* histogram.cc */,
-				921683071B26691A00561211 /* histogram.h */,
 				921683081B26691A00561211 /* logging.cc */,
 				921683091B26691A00561211 /* logging.h */,
 				9216830A1B26691A00561211 /* mutexlock.h */,
@@ -418,8 +408,6 @@
 				9216830C1B26691A00561211 /* posix_logger.h */,
 				9216830D1B26691A00561211 /* random.h */,
 				9216830E1B26691A00561211 /* status.cc */,
-				9216830F1B26691A00561211 /* testharness.cc */,
-				921683101B26691A00561211 /* testharness.h */,
 			);
 			name = util;
 			path = leveldb/src/util;
@@ -467,11 +455,9 @@
 				9216834B1B26691A00561211 /* status.h in Headers */,
 				921683501B26691A00561211 /* port.h in Headers */,
 				921683751B26691A00561211 /* crc32c.h in Headers */,
-				9216837F1B26691A00561211 /* histogram.h in Headers */,
 				9216835F1B26691A00561211 /* format.h in Headers */,
 				921683321B26691A00561211 /* snapshot.h in Headers */,
 				9216831D1B26691A00561211 /* db_iter.h in Headers */,
-				921683881B26691A00561211 /* testharness.h in Headers */,
 				9216834F1B26691A00561211 /* atomic_pointer.h in Headers */,
 				921683151B26691A00561211 /* builder.h in Headers */,
 				921683201B26691A00561211 /* dbformat.h in Headers */,
@@ -624,7 +610,6 @@
 				921683351B26691A00561211 /* version_edit.cc in Sources */,
 				921683381B26691A00561211 /* version_set.cc in Sources */,
 				921683861B26691A00561211 /* status.cc in Sources */,
-				9216837E1B26691A00561211 /* histogram.cc in Sources */,
 				9216832B1B26691A00561211 /* log_writer.cc in Sources */,
 				921683671B26691A00561211 /* two_level_iterator.cc in Sources */,
 				921683801B26691A00561211 /* logging.cc in Sources */,
@@ -646,7 +631,6 @@
 				9216836C1B26691A00561211 /* bloom.cc in Sources */,
 				9216833E1B26691A00561211 /* memenv.cc in Sources */,
 				9216835B1B26691A00561211 /* filter_block.cc in Sources */,
-				921683871B26691A00561211 /* testharness.cc in Sources */,
 				9216837B1B26691A00561211 /* hash.cc in Sources */,
 				9216835E1B26691A00561211 /* format.cc in Sources */,
 				921683701B26691A00561211 /* coding.cc in Sources */,

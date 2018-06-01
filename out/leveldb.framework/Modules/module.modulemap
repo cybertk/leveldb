@@ -1,0 +1,6 @@
+framework module leveldb {
+  umbrella header "leveldb.h"
+
+  export *
+  module * { export * }
+}

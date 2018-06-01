@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73D37DFA20BFCE800069F5B9 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D37DF920BFCE800069F5B9 /* export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D37DFC20BFCF290069F5B9 /* port_stdcxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D37DFB20BFCF280069F5B9 /* port_stdcxx.h */; };
 		921682871B25C1A300561211 /* leveldb_ios_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 921682861B25C1A300561211 /* leveldb_ios_tests.mm */; };
 		921682881B25C1A300561211 /* leveldb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9295C9951B2591EA00C388EB /* leveldb.framework */; };
 		921682911B2668F500561211 /* leveldb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216828F1B2668F500561211 /* leveldb.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,8 +61,6 @@
 		9216834F1B26691A00561211 /* atomic_pointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 921682D41B26691A00561211 /* atomic_pointer.h */; };
 		921683501B26691A00561211 /* port.h in Headers */ = {isa = PBXBuildFile; fileRef = 921682D51B26691A00561211 /* port.h */; };
 		921683511B26691A00561211 /* port_example.h in Headers */ = {isa = PBXBuildFile; fileRef = 921682D61B26691A00561211 /* port_example.h */; };
-		921683521B26691A00561211 /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921682D71B26691A00561211 /* port_posix.cc */; };
-		921683531B26691A00561211 /* port_posix.h in Headers */ = {isa = PBXBuildFile; fileRef = 921682D81B26691A00561211 /* port_posix.h */; };
 		921683551B26691A00561211 /* thread_annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 921682DA1B26691A00561211 /* thread_annotations.h */; };
 		921683571B26691A00561211 /* block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921682DE1B26691A00561211 /* block.cc */; };
 		921683581B26691A00561211 /* block.h in Headers */ = {isa = PBXBuildFile; fileRef = 921682DF1B26691A00561211 /* block.h */; };
@@ -92,8 +92,6 @@
 		9216837A1B26691A00561211 /* filter_policy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921683021B26691A00561211 /* filter_policy.cc */; };
 		9216837B1B26691A00561211 /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921683031B26691A00561211 /* hash.cc */; };
 		9216837C1B26691A00561211 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 921683041B26691A00561211 /* hash.h */; };
-		9216837E1B26691A00561211 /* histogram.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921683061B26691A00561211 /* histogram.cc */; };
-		9216837F1B26691A00561211 /* histogram.h in Headers */ = {isa = PBXBuildFile; fileRef = 921683071B26691A00561211 /* histogram.h */; };
 		921683801B26691A00561211 /* logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921683081B26691A00561211 /* logging.cc */; };
 		921683811B26691A00561211 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 921683091B26691A00561211 /* logging.h */; };
 		921683821B26691A00561211 /* mutexlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216830A1B26691A00561211 /* mutexlock.h */; };
@@ -101,8 +99,6 @@
 		921683841B26691A00561211 /* posix_logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216830C1B26691A00561211 /* posix_logger.h */; };
 		921683851B26691A00561211 /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = 9216830D1B26691A00561211 /* random.h */; };
 		921683861B26691A00561211 /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9216830E1B26691A00561211 /* status.cc */; };
-		921683871B26691A00561211 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9216830F1B26691A00561211 /* testharness.cc */; };
-		921683881B26691A00561211 /* testharness.h in Headers */ = {isa = PBXBuildFile; fileRef = 921683101B26691A00561211 /* testharness.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +112,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73D37DF920BFCE800069F5B9 /* export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = export.h; sourceTree = "<group>"; };
+		73D37DFB20BFCF280069F5B9 /* port_stdcxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = port_stdcxx.h; sourceTree = "<group>"; };
 		921682821B25C1A300561211 /* leveldb-ios-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leveldb-ios-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		921682851B25C1A300561211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		921682861B25C1A300561211 /* leveldb_ios_tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = leveldb_ios_tests.mm; sourceTree = "<group>"; };
@@ -170,8 +168,6 @@
 		921682D41B26691A00561211 /* atomic_pointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atomic_pointer.h; sourceTree = "<group>"; };
 		921682D51B26691A00561211 /* port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = port.h; sourceTree = "<group>"; };
 		921682D61B26691A00561211 /* port_example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = port_example.h; sourceTree = "<group>"; };
-		921682D71B26691A00561211 /* port_posix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = port_posix.cc; sourceTree = "<group>"; };
-		921682D81B26691A00561211 /* port_posix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = port_posix.h; sourceTree = "<group>"; };
 		921682DA1B26691A00561211 /* thread_annotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_annotations.h; sourceTree = "<group>"; };
 		921682DE1B26691A00561211 /* block.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = block.cc; sourceTree = "<group>"; };
 		921682DF1B26691A00561211 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block.h; sourceTree = "<group>"; };
@@ -203,8 +199,6 @@
 		921683021B26691A00561211 /* filter_policy.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filter_policy.cc; sourceTree = "<group>"; };
 		921683031B26691A00561211 /* hash.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hash.cc; sourceTree = "<group>"; };
 		921683041B26691A00561211 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
-		921683061B26691A00561211 /* histogram.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = histogram.cc; sourceTree = "<group>"; };
-		921683071B26691A00561211 /* histogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = histogram.h; sourceTree = "<group>"; };
 		921683081B26691A00561211 /* logging.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logging.cc; sourceTree = "<group>"; };
 		921683091B26691A00561211 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
 		9216830A1B26691A00561211 /* mutexlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mutexlock.h; sourceTree = "<group>"; };
@@ -212,8 +206,6 @@
 		9216830C1B26691A00561211 /* posix_logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = posix_logger.h; sourceTree = "<group>"; };
 		9216830D1B26691A00561211 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
 		9216830E1B26691A00561211 /* status.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = status.cc; sourceTree = "<group>"; };
-		9216830F1B26691A00561211 /* testharness.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testharness.cc; sourceTree = "<group>"; };
-		921683101B26691A00561211 /* testharness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testharness.h; sourceTree = "<group>"; };
 		9295C9951B2591EA00C388EB /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -299,8 +291,8 @@
 				921682B61B26691A00561211 /* version_edit.h */,
 				921682B81B26691A00561211 /* version_set.cc */,
 				921682B91B26691A00561211 /* version_set.h */,
-				921682BB1B26691A00561211 /* write_batch.cc */,
 				921682BC1B26691A00561211 /* write_batch_internal.h */,
+				921682BB1B26691A00561211 /* write_batch.cc */,
 			);
 			name = db;
 			path = leveldb/src/db;
@@ -342,13 +334,14 @@
 				921682C81B26691A00561211 /* db.h */,
 				921682C91B26691A00561211 /* dumpfile.h */,
 				921682CA1B26691A00561211 /* env.h */,
+				73D37DF920BFCE800069F5B9 /* export.h */,
 				921682CB1B26691A00561211 /* filter_policy.h */,
 				921682CC1B26691A00561211 /* iterator.h */,
 				921682CD1B26691A00561211 /* options.h */,
 				921682CE1B26691A00561211 /* slice.h */,
 				921682CF1B26691A00561211 /* status.h */,
-				921682D01B26691A00561211 /* table.h */,
 				921682D11B26691A00561211 /* table_builder.h */,
+				921682D01B26691A00561211 /* table.h */,
 				921682D21B26691A00561211 /* write_batch.h */,
 			);
 			path = leveldb;
@@ -358,10 +351,9 @@
 			isa = PBXGroup;
 			children = (
 				921682D41B26691A00561211 /* atomic_pointer.h */,
-				921682D51B26691A00561211 /* port.h */,
 				921682D61B26691A00561211 /* port_example.h */,
-				921682D71B26691A00561211 /* port_posix.cc */,
-				921682D81B26691A00561211 /* port_posix.h */,
+				73D37DFB20BFCF280069F5B9 /* port_stdcxx.h */,
+				921682D51B26691A00561211 /* port.h */,
 				921682DA1B26691A00561211 /* thread_annotations.h */,
 			);
 			name = port;
@@ -371,20 +363,20 @@
 		921682DD1B26691A00561211 /* table */ = {
 			isa = PBXGroup;
 			children = (
-				921682DE1B26691A00561211 /* block.cc */,
-				921682DF1B26691A00561211 /* block.h */,
 				921682E01B26691A00561211 /* block_builder.cc */,
 				921682E11B26691A00561211 /* block_builder.h */,
+				921682DE1B26691A00561211 /* block.cc */,
+				921682DF1B26691A00561211 /* block.h */,
 				921682E21B26691A00561211 /* filter_block.cc */,
 				921682E31B26691A00561211 /* filter_block.h */,
 				921682E51B26691A00561211 /* format.cc */,
 				921682E61B26691A00561211 /* format.h */,
-				921682E71B26691A00561211 /* iterator.cc */,
 				921682E81B26691A00561211 /* iterator_wrapper.h */,
+				921682E71B26691A00561211 /* iterator.cc */,
 				921682E91B26691A00561211 /* merger.cc */,
 				921682EA1B26691A00561211 /* merger.h */,
-				921682EB1B26691A00561211 /* table.cc */,
 				921682EC1B26691A00561211 /* table_builder.cc */,
+				921682EB1B26691A00561211 /* table.cc */,
 				921682EE1B26691A00561211 /* two_level_iterator.cc */,
 				921682EF1B26691A00561211 /* two_level_iterator.h */,
 			);
@@ -404,13 +396,11 @@
 				921682FB1B26691A00561211 /* comparator.cc */,
 				921682FC1B26691A00561211 /* crc32c.cc */,
 				921682FD1B26691A00561211 /* crc32c.h */,
-				921682FF1B26691A00561211 /* env.cc */,
 				921683001B26691A00561211 /* env_posix.cc */,
+				921682FF1B26691A00561211 /* env.cc */,
 				921683021B26691A00561211 /* filter_policy.cc */,
 				921683031B26691A00561211 /* hash.cc */,
 				921683041B26691A00561211 /* hash.h */,
-				921683061B26691A00561211 /* histogram.cc */,
-				921683071B26691A00561211 /* histogram.h */,
 				921683081B26691A00561211 /* logging.cc */,
 				921683091B26691A00561211 /* logging.h */,
 				9216830A1B26691A00561211 /* mutexlock.h */,
@@ -418,8 +408,6 @@
 				9216830C1B26691A00561211 /* posix_logger.h */,
 				9216830D1B26691A00561211 /* random.h */,
 				9216830E1B26691A00561211 /* status.cc */,
-				9216830F1B26691A00561211 /* testharness.cc */,
-				921683101B26691A00561211 /* testharness.h */,
 			);
 			name = util;
 			path = leveldb/src/util;
@@ -456,6 +444,7 @@
 				921683451B26691A00561211 /* dumpfile.h in Headers */,
 				921683471B26691A00561211 /* filter_policy.h in Headers */,
 				921683461B26691A00561211 /* env.h in Headers */,
+				73D37DFA20BFCE800069F5B9 /* export.h in Headers */,
 				9216834C1B26691A00561211 /* table.h in Headers */,
 				921683441B26691A00561211 /* db.h in Headers */,
 				921683481B26691A00561211 /* iterator.h in Headers */,
@@ -467,11 +456,9 @@
 				9216834B1B26691A00561211 /* status.h in Headers */,
 				921683501B26691A00561211 /* port.h in Headers */,
 				921683751B26691A00561211 /* crc32c.h in Headers */,
-				9216837F1B26691A00561211 /* histogram.h in Headers */,
 				9216835F1B26691A00561211 /* format.h in Headers */,
 				921683321B26691A00561211 /* snapshot.h in Headers */,
 				9216831D1B26691A00561211 /* db_iter.h in Headers */,
-				921683881B26691A00561211 /* testharness.h in Headers */,
 				9216834F1B26691A00561211 /* atomic_pointer.h in Headers */,
 				921683151B26691A00561211 /* builder.h in Headers */,
 				921683201B26691A00561211 /* dbformat.h in Headers */,
@@ -488,7 +475,6 @@
 				9216835C1B26691A00561211 /* filter_block.h in Headers */,
 				921683361B26691A00561211 /* version_edit.h in Headers */,
 				921683581B26691A00561211 /* block.h in Headers */,
-				921683531B26691A00561211 /* port_posix.h in Headers */,
 				9216837C1B26691A00561211 /* hash.h in Headers */,
 				921683301B26691A00561211 /* skiplist.h in Headers */,
 				9216832E1B26691A00561211 /* memtable.h in Headers */,
@@ -501,6 +487,7 @@
 				921683841B26691A00561211 /* posix_logger.h in Headers */,
 				921683821B26691A00561211 /* mutexlock.h in Headers */,
 				921683851B26691A00561211 /* random.h in Headers */,
+				73D37DFC20BFCF290069F5B9 /* port_stdcxx.h in Headers */,
 				921683631B26691A00561211 /* merger.h in Headers */,
 				921683271B26691A00561211 /* log_format.h in Headers */,
 			);
@@ -551,7 +538,7 @@
 		9295C98C1B2591EA00C388EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = com.google;
 				TargetAttributes = {
 					921682811B25C1A300561211 = {
@@ -617,14 +604,12 @@
 				9216836E1B26691A00561211 /* cache.cc in Sources */,
 				9216832D1B26691A00561211 /* memtable.cc in Sources */,
 				921683831B26691A00561211 /* options.cc in Sources */,
-				921683521B26691A00561211 /* port_posix.cc in Sources */,
 				921683741B26691A00561211 /* crc32c.cc in Sources */,
 				921683221B26691A00561211 /* dumpfile.cc in Sources */,
 				921683571B26691A00561211 /* block.cc in Sources */,
 				921683351B26691A00561211 /* version_edit.cc in Sources */,
 				921683381B26691A00561211 /* version_set.cc in Sources */,
 				921683861B26691A00561211 /* status.cc in Sources */,
-				9216837E1B26691A00561211 /* histogram.cc in Sources */,
 				9216832B1B26691A00561211 /* log_writer.cc in Sources */,
 				921683671B26691A00561211 /* two_level_iterator.cc in Sources */,
 				921683801B26691A00561211 /* logging.cc in Sources */,
@@ -646,7 +631,6 @@
 				9216836C1B26691A00561211 /* bloom.cc in Sources */,
 				9216833E1B26691A00561211 /* memenv.cc in Sources */,
 				9216835B1B26691A00561211 /* filter_block.cc in Sources */,
-				921683871B26691A00561211 /* testharness.cc in Sources */,
 				9216837B1B26691A00561211 /* hash.cc in Sources */,
 				9216835E1B26691A00561211 /* format.cc in Sources */,
 				921683701B26691A00561211 /* coding.cc in Sources */,
@@ -678,6 +662,7 @@
 				);
 				INFOPLIST_FILE = "leveldb-ios-tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -691,6 +676,7 @@
 				);
 				INFOPLIST_FILE = "leveldb-ios-tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -703,13 +689,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -717,6 +713,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -732,7 +729,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -750,13 +747,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -773,7 +780,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -787,6 +794,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -795,6 +803,7 @@
 					"$(inherited)",
 					OS_MACOSX,
 					LEVELDB_PLATFORM_POSIX,
+					"LEVELDB_IS_BIG_ENDIAN=0",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -803,8 +812,9 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/leveldb/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -815,6 +825,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -823,6 +834,7 @@
 					"$(inherited)",
 					OS_MACOSX,
 					LEVELDB_PLATFORM_POSIX,
+					"LEVELDB_IS_BIG_ENDIAN=0",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -831,8 +843,9 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/leveldb/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";

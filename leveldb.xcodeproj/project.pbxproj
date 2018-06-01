@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73D37DFA20BFCE800069F5B9 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D37DF920BFCE800069F5B9 /* export.h */; };
+		73D37DFA20BFCE800069F5B9 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D37DF920BFCE800069F5B9 /* export.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D37DFC20BFCF290069F5B9 /* port_stdcxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D37DFB20BFCF280069F5B9 /* port_stdcxx.h */; };
 		921682871B25C1A300561211 /* leveldb_ios_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 921682861B25C1A300561211 /* leveldb_ios_tests.mm */; };
 		921682881B25C1A300561211 /* leveldb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9295C9951B2591EA00C388EB /* leveldb.framework */; };
@@ -444,6 +444,7 @@
 				921683451B26691A00561211 /* dumpfile.h in Headers */,
 				921683471B26691A00561211 /* filter_policy.h in Headers */,
 				921683461B26691A00561211 /* env.h in Headers */,
+				73D37DFA20BFCE800069F5B9 /* export.h in Headers */,
 				9216834C1B26691A00561211 /* table.h in Headers */,
 				921683441B26691A00561211 /* db.h in Headers */,
 				921683481B26691A00561211 /* iterator.h in Headers */,
@@ -488,7 +489,6 @@
 				921683851B26691A00561211 /* random.h in Headers */,
 				73D37DFC20BFCF290069F5B9 /* port_stdcxx.h in Headers */,
 				921683631B26691A00561211 /* merger.h in Headers */,
-				73D37DFA20BFCE800069F5B9 /* export.h in Headers */,
 				921683271B26691A00561211 /* log_format.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
